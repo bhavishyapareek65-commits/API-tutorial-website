@@ -1,0 +1,25 @@
+{
+  "name": "elevenlabs-ai-studio",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Professional AI Text-to-Speech Studio powered by the official ElevenLabs API",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "keywords": [
+    "elevenlabs",
+    "text-to-speech",
+    "tts",
+    "ai-voice",
+    "audio-studio"
+  ],
+  "author": "ElevenLabs Studio Developer",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
